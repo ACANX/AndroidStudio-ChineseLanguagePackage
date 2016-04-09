@@ -19,4 +19,4 @@ AndroidStudio2.0.x.CN
 │   │     ├─Android_Studio_CN_smzy.zip                    //smzy 制作的Android_Studio_CN汉化版本备份压缩包
 │   ├─AndriodStudio_2.0.0.20_resources_en/
 │   │     ├─resources_cn_v1.0_zhangwei_20141211.zip      //Android Studio 中文组 对V1.0汉化版本备份压缩包
-```、
+```
