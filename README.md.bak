@@ -29,8 +29,8 @@
 ```
 AndroidStudio2.0.x.CN/
 ├─AS_V2.0.0.20_zh-cn/                                    //V2.0.0.20版翻译项目目录
-│   ├─resources_cn/
-│   └─README.md
+│  ├─resources_cn/
+│  └─README.md
 ├─AS_V2.0.0.20_en/                                        //V2.0.0.20版英语语言解压包
 │   ├─resources_en
 │   └─README.md
