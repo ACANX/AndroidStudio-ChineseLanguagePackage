@@ -12,7 +12,7 @@
 * App Indexing Code Generation & Test
 * GPU Debugger Preview 
 * IntelliJ 15 Update 
-  更新详情：参见发行说明
+* 更新详情：参见发行说明：
    http://android-developers.blogspot.com/2016/04/android-studio-2-0.html
 
 ---
@@ -26,20 +26,20 @@
 
 ##目录介绍
 ```
-AndroidStudio2.0.x.CN
-├─AS_V2.0.0.20_zh-cn/                                  //V2.0.0.20版翻译项目目录
-│	 ├─resources_cn
-│        └─README.md
-├─AS_V2.0.0.20_en/                                     //V2.0.0.20版英语语言解压包
-│       ├─resources_en
-│       └─README.md
-├─Android_Studio_CN/				       //smzy 制作的Android_Studio_CN汉化版本
-│       ├─zh_CN
-│       └─README.md
-├─Android_Studio_resources_cn_v1.0/                    //Android Studio 中文组 对V1.0汉化版本
-│       ├─resources_en
-│       └─README.md
-├─Backup/                                              // 备份目录
+AndroidStudio2.0.x.CN/
+├─AS_V2.0.0.20_zh-cn/                                    //V2.0.0.20版翻译项目目录
+│  ├─resources_cn/
+│  └─README.md
+├─AS_V2.0.0.20_en/                                        //V2.0.0.20版英语语言解压包
+│   ├─resources_en
+│   └─README.md
+├─Android_Studio_CN/				          //smzy 制作的Android_Studio_CN汉化版本
+│   ├─zh_CN/
+│   └─README.md
+├─Android_Studio_resources_cn_v1.0/                       //Android Studio 中文组 对V1.0汉化版本
+│   ├─resources_en/
+│   └─README.md
+├─Backup/                                                  // 备份目录
 │     ├─AndriodStudio_1.x_resources_cn/
 │     │     └─Android_Studio_CN_smzy.zip                    //smzy 制作的Android_Studio_CN汉化版本备份压缩包
 │     ├─AndriodStudio_2.0.0.20_resources_en/
@@ -47,7 +47,7 @@ AndroidStudio2.0.x.CN
 │     └─AS_2.0_Preview_Build_143.2443734_20151125_For_Mac/
 │           └─resources_en.jar			             //Android-Studio_2.0_Preview_build_143.2443734)_部分汉化包
 ├─Tools/
-│     ├─jre7 
+│     ├─jre7/
 │     ├─AS汉化工具.exe 
 │     ├─AS汉化工具使用说明.doc
 │     └─README.md
