@@ -1,10 +1,10 @@
 # AndroidStudio2.0.汉化计划
-
-####AndroidStudio简介：
+-
+#####AndroidStudio简介：
 ###### AndroidStudio是Google官方推出的基于 IntelliJ IDEA的Android开发IDE. 
 ######Android Studio 2.0是为Android平台打造高品质，高性能的应用程序的最快方式，包括手机、平板电脑，Android Auto，Android Wear和Android TV。作为谷歌官方的IDE，Android Studio包括你需要建立的任何应用程序，其中包括代码编辑器，代码分析工具，模拟器等等。这个新的、稳定的Android Studio版本具有快速构建速度和支持最新Android版的快速的仿真器以及谷歌播放服务。
 
-####AndroidStudioV2.0版本主要更新：
+#####AndroidStudioV2.0版本主要更新：
 
 * Instant Run
 * Android Emulator 
@@ -16,10 +16,11 @@
    http://android-developers.blogspot.com/2016/04/android-studio-2-0.html
 
 ---
-# AndroidStudio V2.0.x.版汉化工作
+# AndroidStudio V2.0.x.版汉化工作介绍
  resource_en.jar------> resource_cn.jar
 
 此汉化基于AndroidStudio V2.0.0.20（20160408）最新V2.0稳定版本
+---使用前请下载并安装 AndroidStudio_2.0.0.20-bundle-143.2739321-windows.exe
 
 ---
 
@@ -58,7 +59,7 @@ AndroidStudio2.0.x.CN/
 
 
 
-###安装使用方法
+##安装、使用方法
 英文语言包l位于安装目录下的 --lib/resource_en.jar 
 使用方法：
 * 1.备份lib/resource_en.jar 文件；
