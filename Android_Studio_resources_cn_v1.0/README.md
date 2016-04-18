@@ -1,8 +1,13 @@
 ﻿Android Studio 汉化补丁 for v1.0 rc4
 
+GitHub项目地址 https://github.com/AndroidStudioTranslate/Android-Studio-Translate
+
 下载地址：http://www.android-studio.org/index.php/chinese
 关注更新：http://ask.android-studio.org/?/article/13
 作者主页：http://ask.android-studio.org/?/people/wellchang
+
+
+
 
 用法及声明: 
 适用于Android Studio v1.0 rc4 （对于早期版本的STUDIO，请使用早期的补丁）
