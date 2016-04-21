@@ -69,3 +69,5 @@ AndroidStudio2.0.x.CN/
 * 5.汉化完成，正常打开AndroidStudio IDE；
 
 
+#汉化预览
+![菜单栏](./Res/IMG/MenuBar.png)
