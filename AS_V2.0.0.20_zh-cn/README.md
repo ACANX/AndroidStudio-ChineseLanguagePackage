@@ -16,7 +16,7 @@ AndroidStudio2.0.x.CN/
 	    	   ├─GraphBundle.properties			//进度100%
 	     	   ├─JamBundle.properties			//进度100%		
 	      	   ├─LicenseCommonBundle.properties		//进度100%
-		   ├─StatisticsBundle.properties		//进度100%	
+	      	   ├─StatisticsBundle.properties		//进度100%	
 
 
 ```
