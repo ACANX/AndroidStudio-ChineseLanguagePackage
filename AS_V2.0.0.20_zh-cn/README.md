@@ -8,15 +8,15 @@
 AndroidStudio2.0.x.CN/
     └─AS_V2.0.0.20_zh-cn/
          └─resources_cn/
-	      └─messages/
-	      	   ├─ActionsBundle.properties			//进度100%
-	      	   ├─CompletionBundle.properties		//进度100%
-	           ├─DesignerBundle.properties			//进度100%	
-	           ├─EvaluationFeedbackRequest.html		//进度100%	
+	       └─messages/
+ 	      	   ├─ActionsBundle.properties			//进度100%
+ 	      	   ├─CompletionBundle.properties		//进度100%
+ 	           ├─DesignerBundle.properties			//进度100%	
+ 	           ├─EvaluationFeedbackRequest.html		//进度100%	
 	    	   ├─GraphBundle.properties			//进度100%
-	     	   ├─JamBundle.properties			//进度100%		
-	      	   ├─LicenseCommonBundle.properties		//进度100%
-	      	   ├─StatisticsBundle.properties		//进度100%	
-
+ 	     	   ├─JamBundle.properties			//进度100%		
+ 	      	   ├─LicenseCommonBundle.properties		//进度100%
+  	      	   ├─StatisticsBundle.properties		//进度100%	
+  	      	   ├─IdeBundle.properties		        //进度约10%
 
 ```
