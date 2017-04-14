@@ -1,0 +1,14 @@
+国际化*.properties文件，中文字符与Unicode字符相互转换
+
+native2ascii.exe 是Java的一个文件转码工具，是将特殊各异的内容转为用指定的编码标准文体形式统一的表现出来，它通常位于JDK_home\bin目录下，安装好Java SE后，可在命令行直接使用 native2ascii命令进行转码。
+国际化resources.properties文件，中文字符转换为Unicode字符：
+native2ascii resources.properties tmp.properties 或者 native2ascii -encoding Unicode resources.properties tmp.properties
+注意：Unicode首字母必须大写
+
+国际化resources.properties文件，Unicode字符转换为中文字符：
+native2ascii -reverse -encoding GB2312 resources.properties tmp.properties
+
+
+
+native2ascii IdeBundle.properties tmp.properties
+native2ascii -reverse -encoding GB2312 tmp.properties resources.properties
