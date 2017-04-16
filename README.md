@@ -1,7 +1,6 @@
 # AndroidStudio 简体中文汉化包
 # AndroidStudio-ChineseLanguagePackage
-- 预览
-![菜单栏](./Res/IMG/MenuBar.png)
+![菜单栏预览](./Res/IMG/MenuBar.png)
 ---
 ## AndroidStudio简介：
 - AndroidStudio是Google官方推出的基于 IntelliJ IDEA的Android开发IDE. 
