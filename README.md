@@ -43,13 +43,14 @@ AndroidStudio-ChineseLanguagePackage/
 │	│─AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar
 │	│─AndroidStudio_v2.0.0.20_resources_cn-v0.2-20170414.jar
 │	└─README.md 
+├─Doc/
 ├─.gitignore     
 ├─LICENSE
 └─README.md
 ```
 
 ## 汉化包下载
-- [汉化资源下载链接汇总](./Download.md)
+- [汉化资源下载链接汇总](./Doc/Download.md)
 
 
 ## 安装、使用方法
@@ -63,17 +64,13 @@ AndroidStudio-ChineseLanguagePackage/
 
 
 ## 参与汉化
-- [如何汉化](./HowToTranslate.md)
+- [如何汉化](./Doc/HowToTranslate.md)
 
 
-### AndroidStudioV2.0版本主要更新：
 
-* Instant Run
-* Android Emulator 
-* Cloud Test Lab Integration
-* App Indexing Code Generation & Test
-* GPU Debugger Preview 
-* IntelliJ 15 Update 
-* 更新详情：参见发行说明：
-   http://android-developers.blogspot.com/2016/04/android-studio-2-0.html
+---
+### 更新
+- [AndroidStudio汉化更新日志](./Doc/AndroidStudio-ChineseLanguagePackageUpdateLog.md)
+- [AndroidStudio更新日志](./Doc/AndroidStudioUpdateLog.md)
+
 

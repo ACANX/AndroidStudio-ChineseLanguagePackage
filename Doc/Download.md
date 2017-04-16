@@ -40,7 +40,7 @@
 ---
 ## 汉化工具
 - [native2ascii.exe 使用说明)](http://ooi5oubvl.bkt.clouddn.com/Tools/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/Java%E5%B1%9E%E6%80%A7properties%E6%96%87%E4%BB%B6%E8%BD%AC%E7%A0%81.txt)
-- [native2ascii.exe)](http://ooi5oubvl.bkt.clouddn.com/Tools/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/native2ascii.exe)
+- [native2ascii.exe](http://ooi5oubvl.bkt.clouddn.com/Tools/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/native2ascii.exe)
 - [工具说明](http://ooi5oubvl.bkt.clouddn.com/Tools/Tools-README.md)
 ---
 ### 工具包资源包打包合集
