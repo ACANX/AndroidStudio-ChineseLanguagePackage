@@ -1,4 +1,5 @@
-# AndroidStudio v2.0.0.20 汉化
+# AndroidStudio 简体中文汉化包
+# AndroidStudio-ChineseLanguagePackage
 ---
 ## AndroidStudio简介：
 ### AndroidStudio是Google官方推出的基于 IntelliJ IDEA的Android开发IDE. 
@@ -16,11 +17,19 @@
    http://android-developers.blogspot.com/2016/04/android-studio-2-0.html
 
 ---
-# AndroidStudio V2.0.x.版汉化工作介绍
+### AndroidStudio v2.0.0.20.版汉化介绍
  resource_en.jar------> resource_cn.jar
 
-- 此汉化基于AndroidStudio V2.0.0.20（20160408）最新V2.0稳定版本
+- 此汉化基于AndroidStudio V2.0（v2.0.0.20-20160408）最新V2.0稳定版本
 - 使用前请下载并安装 AndroidStudio_2.0.0.20-bundle-143.2739321-windows.exe
+
+---
+
+### AndroidStudio v2.3./v2.4 版汉化(计划中)
+ resource_en.jar------> resource_cn.jar
+
+- 此汉化基于AndroidStudio V2.3.1（v2.3.1.0.20-20170404）最新V2.3.1稳定版本
+- 使用前请下载并安装 AndroidStudio_2.3.1-windows.exe
 
 ---
 
