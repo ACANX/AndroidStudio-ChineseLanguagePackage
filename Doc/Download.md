@@ -7,14 +7,18 @@
 
 ## 汉化语言包
 ### Adven翻译汉化包
-- V0.1版本
-	- [v0.1(QiniuCDN)](https://github.com/ACXNX/AndroidStudio2.0.x.CN/blob/master/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
-	- [v0.1(GitHub源)](https://github.com/ACXNX/AndroidStudio2.0.x.CN/blob/master/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
-
----
 - V0.2版本
-	- [v0.2(QiniuCDN)](https://github.com/ACXNX/AndroidStudio2.0.x.CN/blob/master/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
-	- [v0.2(GitHub源)](https://github.com/ACXNX/AndroidStudio2.0.x.CN/blob/master/Release/AndroidStudio_v2.0.0.20_resources_cn-v0.2-20170414.jar)
+	- [v0.2(QiniuCDN)](http://ooi5oubvl.bkt.clouddn.com/Release/AndroidStudio_v2.0.0.20_resources_cn-v0.2-20170414.jar)
+	- [v0.2(GitOSC源)](http://git.oschina.net/ACANX/AndroidStudio-ChineseLanguagePackage/raw/master/Release/AndroidStudio_v2.0.0.20_resources_cn-v0.2-20170414.jar
+	- [v0.2(GitHub源)](https://raw.githubusercontent.com/ACXNX/AndroidStudio-ChineseLanguagePackage/master/Release/AndroidStudio_v2.0.0.20_resources_cn-v0.2-20170414.jar)
+---
+- V0.1版本
+	- [v0.1(QiniuCDN)](http://ooi5oubvl.bkt.clouddn.com/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
+	- [v0.1(GitOSC源)](http://git.oschina.net/ACANX/AndroidStudio-ChineseLanguagePackage/raw/master/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
+	- [v0.1(GitHub源)](https://raw.githubusercontent.com/ACXNX/AndroidStudio-ChineseLanguagePackage/master/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
+
+
+
 
 ---
 

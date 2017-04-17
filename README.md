@@ -29,7 +29,7 @@
 ## 目录介绍
 ```
 AndroidStudio-ChineseLanguagePackage/
-├─AndroidStudio_v2.0.0.20_Zh-CN/                                     //v2.0.0.20版翻译项目目录
+├─AndroidStudio_v2.0.0.20_zh-cn/                                     //v2.0.0.20版翻译项目目录
 │   ├─resources_cn/
 │   ├─resources_cn-GB2312/                                           //v2.0.0.20版翻译中间文件目录
 │   └─README.md
