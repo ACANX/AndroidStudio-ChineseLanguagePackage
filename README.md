@@ -1,5 +1,5 @@
-# AndroidStudio 简体中文汉化包
 # AndroidStudio-ChineseLanguagePackage
+# AndroidStudio 简体中文汉化包
 ![菜单栏预览](./Res/IMG/MenuBar.png)
 ---
 ## AndroidStudio简介：
@@ -9,7 +9,7 @@
 
 
 ---
-## AndroidStudio v2.0.0.20.版汉化介绍
+## AndroidStudio v2.0.0.20汉化介绍
 ### v2.0 resource_en.jar------> resource_cn.jar
 
 - 此汉化基于AndroidStudio V2.0（v2.0.0.20-20160408）最新V2.0稳定版本
@@ -17,11 +17,11 @@
 
 ---
 
-## AndroidStudio v2.3/4 版汉化(计划中)
- ### v2.3/4 resource_en.jar------> resource_cn.jar
+## AndroidStudio v2.3/4 版汉化(计划招募中)
+### v2.3/4 resource_en.jar  ------> resource_cn.jar
 
-- 此汉化基于AndroidStudio V2.3.1（v2.3.1.0.20-20170404）最新V2.3.1稳定版本
-- 使用前请下载并安装 AndroidStudio_2.3.1-windows.exe
+- 基于AndroidStudio V2.3.1/v2.4（v2.3.1.0.20-20170404/v2.4）最新V2.3.1稳定版本
+- 使用前请下载并安装 AndroidStudio-v2.3.1或更高版本
 
 ---
 
@@ -31,7 +31,7 @@
 AndroidStudio-ChineseLanguagePackage/
 ├─AndroidStudio_v2.0.0.20_Zh-CN/                                     //v2.0.0.20版翻译项目目录
 │   ├─resources_cn/
-│   ├─resources_cn-GB2312/
+│   ├─resources_cn-GB2312/                                           //v2.0.0.20版翻译中间文件目录
 │   └─README.md
 ├─AndroidStudio_v2.0.0.20_en/                                        //v2.0.0.20版英语语言解压包
 │   ├─resources_en
@@ -50,26 +50,47 @@ AndroidStudio-ChineseLanguagePackage/
 
 ## 汉化包下载
 - [汉化资源下载链接汇总](./Doc/Download.md)
+- [AndroidStudio中文社区汉化包下载](http://www.android-studio.org/index.php/chinese)
 
 
-## 安装、使用方法
-英文语言包l位于安装目录下的 --lib/resource_en.jar 
-使用方法：
-* 1.备份lib/resource_en.jar 文件；
-* 2.用压缩软件打开（非解压）resource_en.jar文件，将本项目下的AS_V2.0.0.20_en/resources_cn文件夹内的所有文件添加到resource_en.jar文件内替换原英文语言包文件；
-* 3.点击保存；
-* 4.将已经替换的语言包文件，添加回lib/目录，替换之前的resource_en.jar文件；
-* 5.汉化完成，正常打开AndroidStudio IDE；
+## 安装及使用方法
+### 使用说明
+- 此汉化包仅适用于AndroidStudiov2.0.0.20版本，其它版本未验证，请慎用，替换前请做好相关文件的备份。
+- 英文语言包位于  安装目录/lib/resource_en.jar 
+
+### 使用方法：
+* [1] .下载本项目根目录/Release/ 下的对应的已发布的jar汉化包文件(其它下载源请查阅 [汉化资源下载链接汇总](./Doc/Download.md) );
+* [2] .将[1]中下载的jar包重命名为“resource_en.jar”，并保存;
+* [3] .备份 “AndroidStudio安装目录/lib/resource_en.jar” 文件(非常重要);
+* [4] .将[2]中的resource_en.jar文件移动到  AndroidStudio安装目录/lib/目录  替换原版的英语语言包文件resource_en.jar
+* [5] .执行[4]后会弹出对话框，选择同意替换；
+* [6] .关闭窗口，正常打开AndroidStudio IDE，汉化完成，汉化后效果如上预览图所示。
+
 
 
 ## 参与汉化
 - [如何汉化](./Doc/HowToTranslate.md)
-
-
+- [AndroidStudio-ChineseLanguagePackage讨论交流](http://ask.android-studio.org/?/question/1009)
+- [汉化交流](http://ask.android-studio.org/?/people/list/group_id-100)
 
 ---
 ### 更新
 - [AndroidStudio汉化更新日志](./Doc/AndroidStudio-ChineseLanguagePackageUpdateLog.md)
 - [AndroidStudio更新日志](./Doc/AndroidStudioUpdateLog.md)
+
+
+
+### 致谢
+   汉化翻译中，有参考和使用第三方作者的提供的资源和工具，在此一并致谢：
+- [Android Studio 中文组](http://www.android-studio.org/index.php/team)  
+    - [wellchang](http://ask.android-studio.org/?/people/wellchang)       |     [vichild](http://blog.csdn.net/vichild/)  |    [zhangwei](#)
+- [smzy](http://www.smzy.com/smzy/down161822.html)
+
+
+
+### 友情链接
+- [Android Studio 中文社区](http://www.android-studio.org/)
+- [AndroidStudioTranslate/Android-Studio-Translate](https://github.com/AndroidStudioTranslate/Android-Studio-Translate)
+- [Android-Studio-Translate-Tool](https://github.com/AndroidStudioTranslate/Android-Studio-Translate-Tool)
 
 
