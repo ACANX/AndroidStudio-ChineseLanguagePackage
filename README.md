@@ -70,7 +70,8 @@ AndroidStudio-ChineseLanguagePackage/
 
 ## 参与汉化
 - [如何汉化](./Doc/HowToTranslate.md)
-- [AndroidStudio-ChineseLanguagePackage讨论交流](http://ask.android-studio.org/?/question/1009)
+- [AndroidStudio-ChineseLanguagePackage讨论交流](http://ask.android-studio.org/?/question/1494)
+- [AndroidStudio2.0.x讨论交流](http://ask.android-studio.org/?/question/1009)
 - [汉化交流](http://ask.android-studio.org/?/people/list/group_id-100)
 
 ---
