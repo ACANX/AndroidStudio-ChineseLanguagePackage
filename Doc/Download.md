@@ -1,10 +1,7 @@
 # 汉化资源下载链接汇总
 
 
-## AndriodStudio原版语言包
-- [v2.0.20](http://ooi5oubvl.bkt.clouddn.com/Archive/resources_en/resources_en-v2.0.0.20-20160405.jar)
-- [v2.3.1](#)
-- [v2.4.0](#)
+
 
 ---
 
@@ -18,6 +15,8 @@
 - V0.2版本
 	- [v0.2(QiniuCDN)](https://github.com/ACXNX/AndroidStudio2.0.x.CN/blob/master/Release/AndriodStudio-v2.0.0.20_resources_cn-v0.1-20160405.jar)
 	- [v0.2(GitHub源)](https://github.com/ACXNX/AndroidStudio2.0.x.CN/blob/master/Release/AndroidStudio_v2.0.0.20_resources_cn-v0.2-20170414.jar)
+
+---
 
 
 ### 第三方汉化版包
@@ -35,6 +34,13 @@
 - [AndriodStudio-v1.x版_中文汉化包](http://ooi5oubvl.bkt.clouddn.com/Archive/AndriodStudio_1.x_resources_cn/AndriodStudio_1.x_resources_cn-README.md)
 - [Android_Studio_CN_smzy.zip](http://ooi5oubvl.bkt.clouddn.com/Archive/AndriodStudio_1.x_resources_cn/Android_Studio_CN_smzy.zip)
 - [resources_cn_v1.0_zhangwei_20141211.zip](http://ooi5oubvl.bkt.clouddn.com/Archive/AndriodStudio_1.x_resources_cn/resources_cn_v1.0_zhangwei_20141211.zip)
+
+---
+
+## AndriodStudio原版语言包
+- [v2.0.20](http://ooi5oubvl.bkt.clouddn.com/Archive/resources_en/resources_en-v2.0.0.20-20160405.jar)
+- [v2.3.1](#)
+- [v2.4.0](#)
 
 
 ---
