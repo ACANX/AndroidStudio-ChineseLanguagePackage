@@ -113,10 +113,32 @@ public class PropertiesUtil {
         // 构建配置文件数据结构
         Map<String, PropertiesItem> propMap = new HashMap<String, PropertiesItem>();
         List<String> propList;
+        List<String> montagedPropList = new ArrayList<>();
         try {
             propList = FileUtils.readLines(file, Constant.ENCODE_UTF8);
+
+            int lineCount = 1;
+            String montageStr = "";
             for (int i = 0; i < propList.size(); i++) {
-                String line = propList.get(i);
+                String currLine = propList.get(i);
+                if (currLine.trim().endsWith("\\")){
+                    montageStr = montageStr + currLine;
+                    lineCount ++;
+                } else {
+                    if (lineCount > 1){
+                        montagedPropList.add(montageStr + currLine);
+                    } else {
+                        montagedPropList.add(currLine);
+                    }
+                    montageStr = "";
+                    lineCount = 1;
+                }
+
+            }
+
+            // 将处理完的List中的key：value及行号记录到propMap中，用于下面的修改配置项判断
+            for (int i = 0; i < montagedPropList.size(); i++) {
+                String line = montagedPropList.get(i);
                 String[] keyValue = line.split("=");
                 if (!StringUtils.isBlank(line) && !line.startsWith("#") && keyValue.length == 2) {
                     PropertiesItem item = new PropertiesItem(keyValue[0], keyValue[1], i);
@@ -127,8 +149,8 @@ public class PropertiesUtil {
             // TODO
             throw new RuntimeException(e);
         }
+        
         // 修改对应的配置项
-        // Properties properties = loadConfig(file);
         for (String key : needModPropMap.keySet()) {
             String value = needModPropMap.get(key);
             if (!StringUtils.isBlank(key) && !StringUtils.isBlank(value)) {
@@ -138,19 +160,19 @@ public class PropertiesUtil {
                     String newLine = pItem.getKey() + "=" + value;
                     pItem.setValue(value);
                     propMap.put(key, pItem);
-                    propList.set(pItem.getLine(), newLine);
+                    montagedPropList.set(pItem.getLine(), newLine);
                 } else if (allowAddProp){
                     // 不存在 追加到文件最后面
                     String newLine = key + "=" + value;
-                    propList.add(newLine);
-                    pItem = new PropertiesItem(key, value, propList.size() - 1);
+                    montagedPropList.add(newLine);
+                    pItem = new PropertiesItem(key, value, montagedPropList.size() - 1);
                     propMap.put(key, pItem);
                 }
             }
         }
         // 保存配置到文件
         try {
-            FileUtils.writeLines(file, propList);
+            FileUtils.writeLines(file, montagedPropList);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

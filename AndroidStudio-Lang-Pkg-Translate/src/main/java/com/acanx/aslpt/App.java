@@ -38,14 +38,17 @@ public class App {
         logger.info(new File(Constant.AS_CN_PACKAGE_DIR).getAbsolutePath());
 
 
+        // 1.
         // // 配置信息读取并导出到Excel
         // // 配置信息读取
         // List<TranslateItem> items = getAllTranslateItemList(getAllPropertiesFile());
-        // File file = new File(Constant.AS_CN_PACKAGE_MID_EXCEL_FILE_PATH);
+        File file = new File(Constant.AS_CN_PACKAGE_MID_EXCEL_FILE_PATH);
         // // 导出到Excel
+        // 2.
         // exportDataToExcelFile(items, file);
 
 
+        // 3.
 //        // 从Excel文件中读取配置，并在修改后保存到文件中
 //        // 读取Excel文件中配置，加载到内存
 //        // 这里默认每次会读取100条数据 然后返回过来 直接调用使用数据就行
@@ -57,40 +60,9 @@ public class App {
 //        logger.info("---------------------------------------------------------------------------------------------------");
 
 
-        Map<String, Map<String,String>> needChangePropMap = new HashMap<>();
-        try {
-            int batch = 500;
-            AtomicInteger count = new AtomicInteger(0);
-            EasyExcel.read(Constant.AS_CN_PACKAGE_MID_EXCEL_FILE_PATH, TranslateItem.class,
-                    new PageReadListener<TranslateItem>(list -> {
-                        logger.info("已完成" + list.size() + "条数据读取...");
-                        for (TranslateItem item : list) {
-                            logger.info("【数据】=>" + JSONObject.toJSONString(item));
-                            count.incrementAndGet();
-                            Map<String,String> subMap = needChangePropMap.get(item.getFile());
-                            String unicodeText = CharConvert.chineseToUnicode(item.getTranslatedValue());
-                            if (null == subMap) {
-                                subMap = new HashMap<>();
-                                subMap.put(item.getKey(), unicodeText);
-                                needChangePropMap.put(item.getFile(), subMap);
-                            } else {
-                                subMap.put(item.getKey(), unicodeText);
-                                needChangePropMap.put(item.getFile(), subMap);
-                            }
-                        }
-                        logger.info("本批次读取到" + count.get() + "条数据");
-                    }, batch)).sheet().doRead();
-        } catch (Exception e) {
-            logger.error("读取Excel数据异常，", e);
-        }
-        for (String fileKey : needChangePropMap.keySet()) {
-            PropertiesUtil.modifyProperties(new File(fileKey), needChangePropMap.get(fileKey),false);
-            for (String key : needChangePropMap.get(fileKey).keySet()) {
-                logger.warn(String.format("[%-60s][%-100s][%s]", fileKey, key, needChangePropMap.get(fileKey).get(key)));
-            }
-        }
 
-
+        // 4. 将翻译后的文本填充到对应的PropertiesFiles文件中
+        batchModPropValueInPropertiesFiles(file);
 
     }
 
@@ -182,5 +154,44 @@ public class App {
     }
 
 
+    /**
+     *  将翻译后的文本填充到对应的PropertiesFiles文件中
+     * @param excelFile
+     */
+    private static void batchModPropValueInPropertiesFiles(File excelFile){
+        Map<String, Map<String,String>> needChangePropMap = new HashMap<>();
+        try {
+            int batch = 500;
+            AtomicInteger count = new AtomicInteger(0);
+            EasyExcel.read(excelFile, TranslateItem.class,
+                    new PageReadListener<TranslateItem>(list -> {
+                        logger.info("已完成" + list.size() + "条数据读取...");
+                        for (TranslateItem item : list) {
+                            logger.info("【数据】=>" + JSONObject.toJSONString(item));
+                            count.incrementAndGet();
+                            Map<String,String> subMap = needChangePropMap.get(item.getFile());
+                            String unicodeText = CharConvert.chineseToUnicode(item.getTranslatedValue());
+                            if (null == subMap) {
+                                subMap = new HashMap<>();
+                                subMap.put(item.getKey(), unicodeText);
+                                needChangePropMap.put(item.getFile(), subMap);
+                            } else {
+                                subMap.put(item.getKey(), unicodeText);
+                                needChangePropMap.put(item.getFile(), subMap);
+                            }
+                        }
+                        logger.info("本批次读取到" + count.get() + "条数据");
+                    }, batch)).sheet().doRead();
+        } catch (Exception e) {
+            logger.error("读取Excel数据异常，", e);
+        }
+        for (String fileKey : needChangePropMap.keySet()) {
+            PropertiesUtil.modifyProperties(new File(fileKey), needChangePropMap.get(fileKey),false);
+            for (String key : needChangePropMap.get(fileKey).keySet()) {
+                logger.warn(String.format("[%-60s][%-100s][%s]", fileKey, key, needChangePropMap.get(fileKey).get(key)));
+            }
+        }
+
+    }
 
 }
