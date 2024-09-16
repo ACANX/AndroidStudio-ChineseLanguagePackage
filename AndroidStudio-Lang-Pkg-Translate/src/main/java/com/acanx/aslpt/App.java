@@ -57,7 +57,7 @@ public class App {
 //        logger.info("---------------------------------------------------------------------------------------------------");
 
 
-        Map<String, TranslateItem> configMap = new HashMap<>();
+        Map<String, Map<String,String>> needChangePropMap = new HashMap<>();
         try {
             int batch = 500;
             AtomicInteger count = new AtomicInteger(0);
@@ -67,18 +67,27 @@ public class App {
                         for (TranslateItem item : list) {
                             logger.info("【数据】=>" + JSONObject.toJSONString(item));
                             count.incrementAndGet();
-                            String key = new File(item.getFile()).getName() + "#####" + item.getKey();
-                            configMap.put(key, item);
+                            Map<String,String> subMap = needChangePropMap.get(item.getFile());
+                            String unicodeText = CharConvert.chineseToUnicode(item.getTranslatedValue());
+                            if (null == subMap) {
+                                subMap = new HashMap<>();
+                                subMap.put(item.getKey(), unicodeText);
+                                needChangePropMap.put(item.getFile(), subMap);
+                            } else {
+                                subMap.put(item.getKey(), unicodeText);
+                                needChangePropMap.put(item.getFile(), subMap);
+                            }
                         }
                         logger.info("本批次读取到" + count.get() + "条数据");
                     }, batch)).sheet().doRead();
         } catch (Exception e) {
             logger.error("读取Excel数据异常，", e);
         }
-        for (TranslateItem item : configMap.values()) {
-            String unicodeTest = CharConvert.chineseToUnicode(item.getTranslatedValue());
-            logger.warn(String.format("[%-60s][%-100s][%s]", item.getKey(), item.getTranslatedValue(), unicodeTest));
-            PropertiesUtil.modifyProperties(new File(item.getFile()), item.getKey(), unicodeTest);
+        for (String fileKey : needChangePropMap.keySet()) {
+            PropertiesUtil.modifyProperties(new File(fileKey), needChangePropMap.get(fileKey),false);
+            for (String key : needChangePropMap.get(fileKey).keySet()) {
+                logger.warn(String.format("[%-60s][%-100s][%s]", fileKey, key, needChangePropMap.get(fileKey).get(key)));
+            }
         }
 
 
