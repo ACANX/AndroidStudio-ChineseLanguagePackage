@@ -26,8 +26,8 @@ AndroidStudio-ChineseLanguagePackage/
        └─AndroidStudio_v2.0.0.20_zh-cn/
             └─resources_cn/
             	       └─messages/
-               	         ├─ ActionsBundle.properties	              //进度100%
-          	      	    ├─ CompletionBundle.properties		         //进度100%
+               	         ├─ ActionsBundle.properties	             //进度100%
+          	      	    ├─ CompletionBundle.properties		        //进度100%
                              ├─ DomBundle.properties                     //进度100%	
                              ├─ FindBundle.properties                    //进度100%	
                              ├─ LangBundle.properties                    //进度100%	
@@ -68,7 +68,7 @@ AndroidStudio-ChineseLanguagePackage/
                              ├─ FileTypesBundle.properties               //进度100%	
                              ├─ KeyMapBundle.properties                  //进度100%	
                              ├─ SMTestsRunnerBundle.properties           //进度100%	
-                             ├─ XDebuggerBundle.properties               //进度100%	
+                             └─ XDebuggerBundle.properties               //进度100%	
 
 
 
