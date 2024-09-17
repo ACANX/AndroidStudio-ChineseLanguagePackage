@@ -17,7 +17,7 @@
 
 ---
 
-## AndroidStudio v2.3/4 版汉化(计划招募中)
+## AndroidStudio v2.3/4 版汉化
 ### v2.3/4 resource_en.jar  ------> resource_cn.jar
 
 - 基于AndroidStudio V2.3.1/v2.4（v2.3.1.0.20-20170404/v2.4）最新V2.3.1稳定版本
@@ -29,11 +29,12 @@
 ## 目录介绍
 ```
 AndroidStudio-ChineseLanguagePackage/
-├─AndroidStudio_v2.0.0.20_zh-cn/                                     //v2.0.0.20版翻译项目目录
+├─AndroidStudio-Lang-Pkg-Translate/                                  //V2.0.0.20版语言包 基于谷歌翻译网页版的机器批量翻译程序源码 
+├─AndroidStudio_v2.0.0.20_zh-cn/                                     //V2.0.0.20版翻译项目目录
 │   ├─resources_cn/
-│   ├─resources_cn-GB2312/                                           //v2.0.0.20版翻译中间文件目录
+│   ├─resources_cn-GB2312/                                           //V2.0.0.20版翻译中间文件目录
 │   └─README.md
-├─AndroidStudio_v2.0.0.20_en/                                        //v2.0.0.20版英语语言解压包
+├─AndroidStudio_v2.0.0.20_en/                                        //V2.0.0.20版英语语言解压包
 │   ├─resources_en
 │   └─README.md
 ├─Release/ 

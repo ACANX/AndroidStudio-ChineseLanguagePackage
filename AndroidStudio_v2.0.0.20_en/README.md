@@ -1,4 +1,4 @@
 
-#resources_en.jar ½âÑ¹
-### AndroidStudio2.0.0.20Ô­resources_en.jar°ü½âÑ¹ÎÄ¼ş
-    ÎÄ¼ş¼ĞÏÂ¹²1069¸öÎÄ¼ş
+#resources_en.jar è§£å‹
+### AndroidStudio2.0.0.20åŸresources_en.jaråŒ…è§£å‹æ–‡ä»¶
+    æ–‡ä»¶å¤¹ä¸‹å…±1069ä¸ªæ–‡ä»¶

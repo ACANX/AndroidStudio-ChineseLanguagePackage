@@ -1,63 +1,89 @@
-# Android Studio ¼òÌåÖĞÎÄºº»¯°ü v0.2
-### »ù±¾ĞÅÏ¢
-- ÏîÄ¿µØÖ· https://github.com/ACXNX/AndroidStudio-ChineseLanguagePackage
-- ×÷   Õß£º Adven 
-- ·¢   ²¼£º Github
-- Í¬²½¸üĞÂ£ºAndroid Studio ÖĞÎÄ×é
-- ¹úÄÚ¾µÏñ£ºGitOSC:[¾µÏñ£ºGitOSC](http://path/to/img.jpg "title")
-- ÏÂÔØµØÖ·£º[http://www.android-studio.org/index.php/chinese](http://www.android-studio.org/index.php/chinese)
-- ¹Ø×¢¸üĞÂ£º[http://ask.android-studio.org/?/question/1009](http://ask.android-studio.org/?/question/1009)
-- ×÷ÕßÖ÷Ò³£º[https://github.com/ACXNX](https://github.com/ACXNX)
-- Ö§³Ö×÷Õß£ºÈç¹û¾õµÃ²¹¶¡ÓĞ°ïÖú£¬ÇëÔÚ¡°Android Studio ÖĞÎÄ×é¡±ÍøÕ¾ÎªÆäÍ¶Æ±£¬ÒÔÊ¾Ö§³Ö,
-  ´«ËÍÃÅ>>> [Í¶Æ±Ö§³Ö](http://www.android-studio.org/index.php/chinese/89-cn/183-androidstudio-2-0-cn "Ö§³Ö")
+# Android Studio ç®€ä½“ä¸­æ–‡æ±‰åŒ–åŒ… v0.2
+### åŸºæœ¬ä¿¡æ¯
+- é¡¹ç›®åœ°å€ https://github.com/ACXNX/AndroidStudio-ChineseLanguagePackage
+- ä½œ   è€…ï¼š Adven 
+- å‘   å¸ƒï¼š Github
+- åŒæ­¥æ›´æ–°ï¼šAndroid Studio ä¸­æ–‡ç»„
+- å›½å†…é•œåƒï¼šGitOSC:[é•œåƒï¼šGitOSC](http://path/to/img.jpg "title")
+- ä¸‹è½½åœ°å€ï¼š[http://www.android-studio.org/index.php/chinese](http://www.android-studio.org/index.php/chinese)
+- å…³æ³¨æ›´æ–°ï¼š[http://ask.android-studio.org/?/question/1009](http://ask.android-studio.org/?/question/1009)
+- ä½œè€…ä¸»é¡µï¼š[https://github.com/ACXNX](https://github.com/ACXNX)
+- æ”¯æŒä½œè€…ï¼šå¦‚æœè§‰å¾—è¡¥ä¸æœ‰å¸®åŠ©ï¼Œè¯·åœ¨â€œAndroid Studio ä¸­æ–‡ç»„â€ç½‘ç«™ä¸ºå…¶æŠ•ç¥¨ï¼Œä»¥ç¤ºæ”¯æŒ,
+  ä¼ é€é—¨>>> [æŠ•ç¥¨æ”¯æŒ](http://www.android-studio.org/index.php/chinese/89-cn/183-androidstudio-2-0-cn "æ”¯æŒ")
 
 
 
 
 
-## ·­ÒëËµÃ÷£º
-- ´ËÎÄ¼şÎªÕıÔÚ·­ÒëµÄÓïÑÔ°ü½âÑ¹Ä¿Â¼£¬×ÜÎÄ¼şÊı1069¸ö£»²»º¬README.mdÎÄ¼ş
+## ç¿»è¯‘è¯´æ˜ï¼š
+- æ­¤æ–‡ä»¶ä¸ºæ­£åœ¨ç¿»è¯‘çš„è¯­è¨€åŒ…è§£å‹ç›®å½•ï¼Œæ€»æ–‡ä»¶æ•°1069ä¸ªï¼›ä¸å«README.mdæ–‡ä»¶
 
-### ×îĞÂ·­Òë½ø¶È
-- ÒÑ·­ÒëÍê³ÉÎÄ¼ş£º
+### æœ€æ–°ç¿»è¯‘è¿›åº¦
+- å·²ç¿»è¯‘å®Œæˆæ–‡ä»¶ï¼š
 
 ```
 AndroidStudio-ChineseLanguagePackage/
-       ©¸©¤AndroidStudio_v2.0.0.20_zh-cn/
-            ©À©¤resources_cn/
-            ©¦ 	       ©¸©¤messages/
-            ©¦ 	      	   ©À©¤ActionsBundle.properties			//½ø¶È100%
-            ©¦ 	      	   ©À©¤CompletionBundle.properties		//½ø¶È100%
-            ©¦ 	           ©À©¤DesignerBundle.properties			//½ø¶È100%	
-            ©¦ 	           ©À©¤EvaluationFeedbackRequest.html		//½ø¶È100%	
-            ©¦ 	    	   ©À©¤GraphBundle.properties			//½ø¶È100%
-            ©¦ 	      	   ©À©¤IdeBundle.properties		        //½ø¶È100%
-            ©¦ 	     	   ©À©¤JamBundle.properties			//½ø¶È100%		
-            ©¦ 	      	   ©À©¤LicenseCommonBundle.properties		//½ø¶È100%
-            ©¦  	      	   ©¸©¤StatisticsBundle.properties		//½ø¶È100%	
-            ©¸©¤resources_cn-GB2312/
-            	       ©¸©¤messages/
-           	      	   ©À©¤ActionsBundle.properties			//½ø¶È100%
-           	      	   ©À©¤CompletionBundle.properties		//½ø¶È100%
-           	           ©À©¤DesignerBundle.properties			//½ø¶È100%	
-           	           ©À©¤EvaluationFeedbackRequest.html		//½ø¶È100%	
-            	    	   ©À©¤GraphBundle.properties			//½ø¶È100%
-            	      	   ©À©¤IdeBundle.properties		        //½ø¶È100%
-            	     	   ©À©¤JamBundle.properties			//½ø¶È100%		
-            	      	   ©À©¤LicenseCommonBundle.properties		//½ø¶È100%
-             	      	   ©¸©¤©¤StatisticsBundle.properties		//½ø¶È100%	
+       â””â”€AndroidStudio_v2.0.0.20_zh-cn/
+            â””â”€resources_cn/
+            	       â””â”€messages/
+               	         â”œâ”€ ActionsBundle.properties	              //è¿›åº¦100%
+          	      	    â”œâ”€ CompletionBundle.properties		         //è¿›åº¦100%
+                             â”œâ”€ DomBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ FindBundle.properties                    //è¿›åº¦100%	
+                             â”œâ”€ LangBundle.properties                    //è¿›åº¦100%	
+                             â”œâ”€ StatisticsBundle.properties              //è¿›åº¦100%	
+                             â”œâ”€ XmlBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ AnalysisScopeBundle.properties           //è¿›åº¦100%	
+                             â”œâ”€ CompletionBundle.properties              //è¿›åº¦100%	
+                             â”œâ”€ DupLocatorBundle.properties              //è¿›åº¦100%	
+                             â”œâ”€ GraphBundle.properties                   //è¿›åº¦100%	
+                             â”œâ”€ LicenseCommonBundle.properties           //è¿›åº¦100%	
+                             â”œâ”€ ToolsBundle.properties                   //è¿›åº¦100%	
+                             â”œâ”€ AntBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ DaemonBundle.properties                  //è¿›åº¦100%	
+                             â”œâ”€ EditorBundle.properties                  //è¿›åº¦100%	
+                             â”œâ”€ IdeBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ OptionsBundle.properties                 //è¿›åº¦100%	
+                             â”œâ”€ UIBundle.properties                      //è¿›åº¦100%	
+                             â”œâ”€ ApplicationBundle.properties             //è¿›åº¦100%	
+                             â”œâ”€ DebuggerBundle.properties                //è¿›åº¦100%	
+                             â”œâ”€ EvaluationFeedbackRequest.html           //è¿›åº¦100%	
+                             â”œâ”€ InspectionsBundle.properties             //è¿›åº¦100%	
+                             â”œâ”€ PsiBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ UsageView.properties                     //è¿›åº¦100%	
+                             â”œâ”€ CodeEditorBundle.properties              //è¿›åº¦100%	
+                             â”œâ”€ DesignerBundle.properties                //è¿›åº¦100%	
+                             â”œâ”€ ExecutionBundle.properties               //è¿›åº¦100%	
+                             â”œâ”€ JamBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ QuickFixBundle.properties                //è¿›åº¦100%	
+                             â”œâ”€ VcsBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ CodeInsightBundle.properties             //è¿›åº¦100%	
+                             â”œâ”€ DiagnosticBundle.properties              //è¿›åº¦100%	
+                             â”œâ”€ FeatureStatisticsBundle.properties       //è¿›åº¦100%	
+                             â”œâ”€ JavadocBundle.properties                 //è¿›åº¦100%	
+                             â”œâ”€ RefactoringBundle.properties             //è¿›åº¦100%	
+                             â”œâ”€ VfsBundle.properties                     //è¿›åº¦100%	
+                             â”œâ”€ CommonBundle.properties                  //è¿›åº¦100%	
+                             â”œâ”€ DiffBundle.properties                    //è¿›åº¦100%	
+                             â”œâ”€ FileTypesBundle.properties               //è¿›åº¦100%	
+                             â”œâ”€ KeyMapBundle.properties                  //è¿›åº¦100%	
+                             â”œâ”€ SMTestsRunnerBundle.properties           //è¿›åº¦100%	
+                             â”œâ”€ XDebuggerBundle.properties               //è¿›åº¦100%	
+
+
+
 
 ```
 
 
 
 
-### Ê¹ÓÃËµÃ÷
-- ÊÊÓÃÓÚAndroid Studio v2.0(v2.0.0.20)ÎÈ¶¨°æ £¨¶ÔÓÚÔçÆÚ°æ±¾µÄSTUDIO£¬ÇëÊ¹ÓÃÔçÆÚµÄ²¹¶¡,¸ßÓÚ2.0°æ±¾ÇëÉ÷ÖØÊ¹ÓÃ£©£»
-- ÊÔÓÃÓÚWindows°æ£¬ÆäËüÆ½Ì¨Î´²âÊÔ¡£
+### ä½¿ç”¨è¯´æ˜
+- é€‚ç”¨äºAndroid Studio v2.0(v2.0.0.20)ç¨³å®šç‰ˆ ï¼ˆå¯¹äºæ—©æœŸç‰ˆæœ¬çš„STUDIOï¼Œè¯·ä½¿ç”¨æ—©æœŸçš„è¡¥ä¸,é«˜äº2.0ç‰ˆæœ¬è¯·æ…é‡ä½¿ç”¨ï¼‰ï¼›
+- è¯•ç”¨äºWindowsç‰ˆï¼Œå…¶å®ƒå¹³å°æœªæµ‹è¯•ã€‚
 
-### ÓÃ·¨
-- 1.¹Ø±Õµ±Ç°ÔËĞĞµÄAndroid Studio³ÌĞò
-- 2.±¸·İ [AndroidStudio°²×°Ä¿Â¼]/lib/resources_en.jar
-- 3.¶ÔÏÂÔØµÄ°üÎÄ¼ş½øĞĞ½âÑ¹£¬ÓÃĞÂµÄresources_en.jarÌæ»» [AndroidStudio°²×°Ä¿Â¼]/lib/resources_en.jar
-- ËµÃ÷£º[AndroidStudio°²×°Ä¿Â¼] ÎªAndroidStudioµÄ°²×°Ä¿Â¼£¬WindowsÏÂÄ¬ÈÏÎª£º
+### ç”¨æ³•
+- 1.å…³é—­å½“å‰è¿è¡Œçš„Android Studioç¨‹åº
+- 2.å¤‡ä»½ [AndroidStudioå®‰è£…ç›®å½•]/lib/resources_en.jar
+- 3.å¯¹ä¸‹è½½çš„åŒ…æ–‡ä»¶è¿›è¡Œè§£å‹ï¼Œç”¨æ–°çš„resources_en.jaræ›¿æ¢ [AndroidStudioå®‰è£…ç›®å½•]/lib/resources_en.jar
+- è¯´æ˜ï¼š[AndroidStudioå®‰è£…ç›®å½•] ä¸ºAndroidStudioçš„å®‰è£…ç›®å½•ï¼ŒWindowsä¸‹é»˜è®¤ä¸ºï¼š
