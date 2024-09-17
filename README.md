@@ -30,9 +30,11 @@
 ```
 AndroidStudio-ChineseLanguagePackage/
 ├─AndroidStudio-Lang-Pkg-Translate/                                  //V2.0.0.20版语言包 基于谷歌翻译网页版的机器批量翻译程序源码 
+│   ├─ .idea/
+│   ├─ src/
+│   └─ README.md
 ├─AndroidStudio_v2.0.0.20_zh-cn/                                     //V2.0.0.20版翻译项目目录
 │   ├─resources_cn/
-│   ├─resources_cn-GB2312/                                           //V2.0.0.20版翻译中间文件目录
 │   └─README.md
 ├─AndroidStudio_v2.0.0.20_en/                                        //V2.0.0.20版英语语言解压包
 │   ├─resources_en
